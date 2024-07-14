@@ -10,7 +10,7 @@ bdele.addEventListener("mousemove",(e)=>{
     const  size=Math.random()*100;
     spanEle.style.width=size+"px";
     spanEle.style.height=size+"px";
-    spanEle.innerHTML="I LOVE YOU SHWETA MERI JAAN"
+    spanEle.innerHTML="I LOVE MY INDIA"
     bdele.appendChild(spanEle);
     setTimeout(()=>{
         spanEle.remove();
