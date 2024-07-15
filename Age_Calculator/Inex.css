@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    padding: 20px;
+    background-color: #f7f7f7;
+    font-family: "Montserrat",sans-serif;
+
+}
+.container{
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+    padding: 20px;
+    margin: 0 auto;
+    width: 70%;
+    max-width: 600px;
+    border-radius: 6px;
+    position: relative;
+
+}
+h1{
+    font-size: 36px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+
+
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.label{
+font-weight: bold;
+margin-bottom: 10px;
+
+}
+input{
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 20px;
+    font-size: larger;
+}
+button{
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    width: 150px;
+    max-width: 300px;
+    margin-bottom: 20px;
+    background-color: cornflowerblue;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 6px 6px 8px rgba(0,0,0,.6);
+    transition: opacity .3s;
+
+}
+
+#result{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 4px 5px 4px rgba(99, 206, 220, 0.4);
+}
+
+
+.back-groun-text { 
+    margin: 3rem; 
+    position: absolute; 
+    top: 380px; 
+    left: 0; 
+    bottom: 0; 
+    z-index: -1; 
+    transform: rotate(280deg); 
+    -webkit-transform: rotate(350deg); 
+    color: red; 
+    user-select: none;
+    text-decoration: solid;
+    font-size: 30px;
+}
