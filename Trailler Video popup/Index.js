@@ -6,6 +6,9 @@ const closeEle=document.querySelector(".close-icon");
 btnEle.addEventListener("click",()=>{
     trailerEle.classList.remove("active");
 });
+const videoEl=document.querySelector("video");
 closeEle.addEventListener("click",()=>{
     trailerEle.classList.add("active");
-})
+    videoEl.pause();
+    videoEl.currentTime=0;
+});
